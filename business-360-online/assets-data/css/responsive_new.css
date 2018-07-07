@@ -1,0 +1,530 @@
+@media only screen and (min-width:769px){
+ .syllabus {
+    padding-left: 2%;
+}
+.banner {
+  height: 620px;
+  overflow: hidden;
+}
+form.contact-form.form-bg{
+	margin-top:10px;
+}
+.banner-bg {
+    background: url('https://emeritus.gsb.columbia.edu/business-360-online/assets-data/images/banner.jpg') no-repeat #0080c8;
+    background-size: cover;
+    min-height: 620px;
+}
+h1.heading.no-marg {
+    margin-top: 0px;
+}
+p.certificate-line {
+    padding-left: 15px;
+}
+.faculty-slider .slick-next:before{
+	right:-30px;
+}
+.faculty-slider .slick-prev:before {
+	left:-30px;
+}
+}
+
+
+
+	
+@media only screen and (max-width:1125px){
+.info-box{ 
+	padding:14px 18px;
+    height: 143px;
+}	
+
+.bg_grey{
+	padding: 1px 30px 60px 30px;
+}
+.pad-ct-top {
+    padding-top: 5%;
+}
+
+.padr80{
+	padding-right:30px;
+}
+.no-marg{
+	margin-top:0px;
+}
+legend{
+	margin-bottom: 14px !important;
+}
+}
+
+
+@media only screen and (max-width:1250px){
+.padr80{
+	padding-top:6%;
+	padding-bottom:2%;
+}
+.certificate-bg h1 {
+    font-size: 32px;
+}	
+}
+
+
+@media only screen and (max-width:800px){
+p.text-justify.Practitioner_text{
+	padding:0 10%;
+}
+.col20.box:nth-child(3n+1) {
+    clear: both;
+}
+.col20.box {
+    width: 33%;
+    padding: 0 15px;
+}
+}
+
+@media only screen and (max-width:768px){
+.info-box {
+    padding: 25px 20px;
+}
+.img-content h3, .img-content p ,.img-content p span.f18{
+	font-size: 20px;
+}
+.padtop{
+	padding-top:0px;
+	padding-top:0px;
+}
+.counter-row{
+	padding:0 30px;
+	margin:20px 0 20px 0;
+}
+.padl80{
+	padding-left:0px;
+}
+p.certificate-line {
+    padding-left: 15px;
+}
+.padr80{
+	padding-right:10px;
+}
+.pad-ct-content{
+	padding-top:0px;
+}
+.certificate-bg{
+    padding:6% 0 2% 0;	
+}
+
+.banner-content h1{
+	margin-top: 175px;
+}
+.form-div{
+	width:100% !important;
+}
+.df{
+	display: block!important;
+	padding:15px 0!important;
+}
+.banner-content{
+	padding-left: 15px;
+}
+.container.info-row{
+	margin-top:40px;
+}
+}
+
+
+@media only screen and (max-width:768px){
+#logo-content{
+	float:none;
+	text-align:center;
+}
+.padr80.text-right{
+	text-align:center;
+}
+.banner-content {
+    color: #ffffff;
+	padding-bottom: 10px;
+    background: rgba(1,1,1,.5);	
+}
+.banner-content h1{
+	padding-top:10px;
+}
+fieldset {
+        padding: 0 10px 32px 10px !important;
+	}
+legend {
+    margin-bottom: 0px !important;
+}
+.ver-center{
+	display: block;
+    align-items: center;
+}
+
+.certificate-bg h1{
+	font-size:40px;
+}
+.your-learning-mt{
+	margin-top:-8%;
+}
+.certificate-img.col-md-7.col-sm-7.col-md-pull-5 {
+    background: url(http://emeritus.org/programmes/digital-marketing/assets-data/images/DM_certificate-bg_big.jpg) no-repeat;
+    background-size: cover;
+	padding:30px;
+}
+h1.heading.no-marg {
+    text-align:center;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.padl80 p{
+	text-align:center;
+	padding:0 20px 30px 20px;
+}
+.certificate-line{
+	padding:0 20px;
+	text-align:center;
+}
+.certificate-img{
+    text-align: center;
+}
+.banner-bg {
+    background: url(../images/mobile-alma-mater-bg_new.jpg) no-repeat;
+    background-size: contain;
+}	
+.certificate-bg {
+    background:none;
+}
+.container.col-md-7.col-sm-7.col-md-pull-5{
+	background: url(http://emeritus.org/programmes/digital-marketing/assets-data/images/DM_certificate-bg_big.jpg) no-repeat;
+    background-size: cover;
+    padding: 5%;
+	text-align: center;
+}
+img.img-responsive{
+	display:inline;
+}
+.header{
+	text-align:center;
+}
+.col-md-4.col-sm-4.no_pad {
+    width: 33%;
+    float: left;
+}
+.img-content h3, .img-content p ,.img-content p span.f18 {
+    font-size: 16px;
+}
+.b-r-f-1{
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	border-right: none;
+	border-left: none;
+}
+br {
+    display: none;
+}
+br.dis-mob {
+    display: block;
+}
+.your-learning-mt{
+	margin-top: -50px;
+}
+.certificate-bg{
+	padding:0% 0 40px 0;
+}
+
+.certificate-bg h1{
+	text-align:center;
+}
+.certificate-bg p{
+	clear:both;
+	padding:0px 30px 0 30px;
+}
+.padl80{
+	text-align:center;
+	padding:0px;
+}
+.container.pad-ct-content.col-sm-6{
+	padding:0px;
+}
+.padtop p{
+	margin:-13px 0 20px 0px;
+	padding:0 3%;
+}
+.top-footer h3{
+	padding: 0 30px;
+	line-height: 32px;
+}
+footer p{
+	padding: 32px 30px 50px 30px;
+}
+}
+
+@media only screen and (max-width:670px){
+.img-content h3, .img-content p ,.img-content p span.f18{
+    font-size: 14px;
+    line-height: 16px;
+}
+.banner-content h1 {
+    font-family: 'Arial';
+    font-size: 43px;
+}	
+.info-box{
+	padding:12px 9px;
+	height: 100px;
+}
+.img-holder {
+    width: 18%;
+	margin: 0 8px 0 0;
+}	
+.img-content {
+    width: 75%;
+}
+}
+
+
+@media only screen and (max-width:540px){
+.banner-content h1{
+    font-size: 32px;
+    line-height: 43px;	
+}
+.banner-content p{
+    font-size: 22px;	
+}
+.heading{
+	font-size: 36px;
+}
+.p-50{
+	padding:0px;
+}
+.faculty-slider.slick-initialized.slick-slider {
+    padding: 0 30px;
+}
+legend {
+    border-bottom: 0 !important;
+    width: 29% !important;
+    margin-bottom: 42px !important;
+}
+}
+
+@media only screen and (max-width:480px){
+.col-md-4.col-sm-4.no_pad {
+	width:99%;	 
+    margin: 0 auto;
+	margin-bottom:8px;
+}
+.top-footer p {
+    padding: 0 20px;
+}
+.container.info-row {
+    padding: 0px;
+}
+.col20.box:nth-child(3n+1) {
+    clear: none;
+}
+.col20.box:nth-child(2n+1) {
+    clear: left;
+}
+.faculty-slider .slick-next:before{
+	right:20px;
+}
+.faculty-slider .slick-prev:before {
+	left:20px;
+}
+.modal-body {
+    padding:0px 20px 20px 20px !important;
+}
+.row.icon-row h4{
+	padding:0px;
+}
+.thakyou-outer {
+    padding: 7% 0% 0% 0%;
+}
+
+.banner-content h1 {
+    margin-top: 120px;
+}
+.banner-content p{
+	font-size:23px;
+}
+.info-box{
+	height:auto;	
+}
+.img-content h3, .img-content p, .img-content p span.f18{
+	font-size: 19px;
+    line-height: 22px;
+}
+.img-holder{
+	text-align:center;
+}
+.col20.box{
+	width:50%;
+}
+.col20.box:nth-child(3n+1) {
+    clear: right;
+}
+.clear-right{
+	clear: right !important;
+}
+
+footer p{
+	padding: 32px 30px 50px 30px;
+}
+}
+
+
+@media only screen and (max-width:420px){
+.banner-content h1 {
+    font-size: 28px;
+    line-height: 36px;
+	margin-top: 116px;
+}
+.banner-content p {
+    font-size: 21px;
+	margin-bottom: 0px;
+}
+legend {
+    border-bottom: 0 !important;
+    width: 44% !important;
+    margin-bottom: 42px !important;
+}
+}
+
+@media only screen and (max-width:380px){
+.banner-content p {
+    font-size: 21px;
+}
+.banner-content h1 {
+    margin-top: 86px;
+}
+.banner-content{
+	padding-left:8px;
+}
+}
+
+
+@media only screen and (max-width:361px){
+.banner-content h1 {
+    margin-top: 106px;
+	font-size: 27px;
+}
+
+.banner-content p{
+	font-size:20px;
+}
+.banner-content{
+	padding-left:8px;
+}
+footer p{
+	padding: 32px 20px 50px 20px;
+}
+}	
+
+
+@media only screen and (max-width:350px){
+.banner-content h1 {
+	margin-top: 78px;
+	font-size: 25px;
+}
+.banner-content p {
+    font-size: 17px;
+}	
+}
+
+@media only screen and (max-width:321px){
+.bg_grey {
+    padding: 1px 10px 60px 10px;
+}
+.padtop p, .certificate-text, .certificate-line{
+	padding:0px;
+}
+.padl80 p{
+	padding:0px 0px 20px 0;
+}
+footer p {
+    padding: 32px 0px 50px 0px;
+}
+.certificate-text.col-sm-6 {
+    padding: 0;
+}
+p.certificate-line {
+    padding-left: 0;
+}
+}	
+
+
+@media only screen and (max-width:1080px) and (min-width:1001px){
+fieldset{
+	height:400px !important;
+}	
+}
+
+@media only screen and (max-width:1300px) and (min-width:769px){	
+.banner-bg {
+    background-size: cover;
+}	
+.img-content p{
+	font-size: 19px;
+}
+.img-content h3{
+	font-size: 18px;
+}
+}
+
+@media only screen and (max-width:700px) and (min-width:540px){
+.faculty-slider .slick-next:before{
+	right: -16px;
+}
+.faculty-slider .slick-prev:before{
+	left: -16px;
+}
+}
+
+
+@media only screen and (max-width:960px) and (min-width:765px){
+h1.heading.no-marg{
+    margin-top: 32px;
+}
+form.contact-form.form-bg {
+    margin-top: 0;
+}
+label.checkbox-inline{
+	font-size:11px;
+}
+}
+
+@media only screen and (max-width:769px) and (min-width:699px){
+.slick-next {
+    right: -20px!important;
+}
+.slick-prev {
+    left: -20px!important;
+}	
+}
+
+@media only screen and (max-width:541px) and (min-width:481px){
+.slick-next {
+    right: 16px!important;
+}	
+.slick-prev {
+    left: 16px!important;
+}
+}
+
+@media only screen and (min-width:767px) and (max-width:769px){
+.form-div {
+    width: 768px !important;
+    margin-left: -9px;
+}
+.img-content h3, .img-content p, .img-content p span.f18 {
+    font-size: 18px;
+}
+}
+
+
+@media only screen and (max-width:1000px){
+br.hidmb {
+    display: none;
+}
+.form-horizontal .control-label{
+	font-size:12px;
+}
+}
+
+

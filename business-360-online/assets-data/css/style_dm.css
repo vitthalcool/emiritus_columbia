@@ -1,0 +1,845 @@
+/*
+
+1. Index Page
+	1.1 Header
+	1.2 Banner
+
+
+
+
+
+    */
+
+    a {
+        color: #fff !important;
+        text-decoration: none !important;
+        outline: none !important;
+    }
+
+    body {
+        font-family: 'robotoregular' !important;
+        margin: 0 auto !important;
+        max-width: 1366px;
+        color:#000;
+        font-size: 15px !important;
+    }
+
+    p,h1,h2,h3,h4,h5,h6 {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    fieldset {
+        padding: 0 30px 32px 30px !important;
+        margin: 0 2px !important;
+        border: 1px solid #d2d3d5 !important;
+        border-radius: 10px !important;
+        background: #fff;
+        max-height: 375px;
+    }
+
+    legend {
+        border-bottom: 0 !important;
+        width: 44% !important;
+        margin-bottom: 42px !important;
+    }
+
+    .no_pad {
+        padding: 0  !important;
+    }
+
+    .db {
+        display: block !important;
+    }
+
+    .df {
+        display: flex !important;
+        align-items: center;
+    }
+
+    .m-r-10 {
+        margin-right: 10px;
+    }
+
+    .p-b-70 {
+        padding-bottom: 70px;
+    }
+
+    .b-r-1 {
+        border-right: 1px solid #ccc;
+    }
+
+    .m-tb-50 {
+        margin-top: 52px;
+        margin-bottom: 52px;
+    }
+
+    .p-50 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .p-tb-10 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .p-tb-14 {
+        padding-top: 14%;
+        padding-bottom: 6%;
+    }
+
+    .txt-color {
+        color: #0080c8 !important;
+        font-family: 'robotomedium';
+        cursor: pointer;
+    }
+
+    a.link {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    a.link:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    /* ===================== Index Page ===================== */
+
+    .wrapper {
+        width: 100%;
+        max-width: 1366px;
+        margin: 0 auto;
+    }
+
+
+    /* Header css */
+    .header {
+        padding: 15px 0 15px 1%;
+    }
+
+    /* banner Css */
+
+    .banner {
+      height: 620px;
+      overflow: hidden;
+  }
+  
+  .thankyoucontainer.banner {
+      height: auto;
+      overflow: hidden;
+  }
+  .banner-bg {
+    background: url('../../assets-data/images/banner_columbia.jpg') no-repeat;
+    background-size: cover;
+    min-height: 620px;
+}
+
+.banner-content {
+    font-family: 'robotobold';
+    font-size: 55px;
+    color: #fff;
+    line-height: 65px;
+}
+
+#logo-container {
+  height: 68px;
+}
+
+#logo-content {
+  position: relative;
+  float: left;
+  font-size:11px;
+  top: 25%;
+  xleft: 50%;
+  xtransform: translate(-50%, -50%);
+}
+
+form.contact-form {
+    background: #e2e2e1;
+    padding: 10px 4%;
+
+}
+form.contact-form .form-group{
+	margin-bottom:3px;
+}
+
+form.contact-form h3,form.contact-form h2,form.contact-form h1{
+    color: #0080c8;
+    font-family: 'robotobold';
+    margin: 0 0 15px 0 !important;
+	font-size: 24px;
+}
+
+.contact-form input.btn.btn-default.download-btn {
+ margin:0px auto 0 auto;
+}
+form.contact-form a {
+    color: #0080c8 !important;
+}
+input.input-box, input.text {
+    width: 100%;
+    padding: 7px 20px;
+    margin-bottom: 3px;
+    border: 0;
+    border-radius: 5px;
+    color: #272525;
+    font-size: 14px;
+}
+
+select.select{
+	width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    border: 0;
+    border-radius: 5px;
+    color: #272525;
+    font-size: 14px;
+}
+
+.form-div {
+    transform: translate(33%,9%);
+    width: 447px !important;
+}
+
+p.error {
+    color: red;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+
+input.btn.btn-default.download-btn,button.btn.btn-default.download-btn  {
+    background: #0080c8;
+    margin: 0 auto;
+    padding: 13px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    /*font-family: 'robotobold';*/
+    font-size: 14px;
+
+}
+
+/* Details-boxes css*/
+
+.info-box {
+    background: #0080c8;
+    color: #fff;
+    padding: 38px 40px;
+    height: 155px;
+    width: 367px;
+    margin: 0 auto;
+}
+
+.img-content {
+    width: 77%;
+    float: right;
+    font-size: 24px;
+    xtext-transform: capitalize;
+}
+
+.img-content h3 {
+    font-family: 'robotolight';
+    font-size: 23px;
+    margin: 0 !important;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.img-content p {
+    margin-top: 5px !important;
+    font-weight: bold;
+    font-family: 'robotolight';
+    font-size: 22px;
+    line-height: 26px;
+}
+.img-content p span.f18
+{
+    font-size: 18.1px;
+}
+
+.img-holder {
+    width: 17%;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+/* why us */
+
+.container.info-row {
+    margin-top: -49px;
+}
+
+.heading {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px !important;
+    font-family: 'robotobold';
+    color: #0080c8;
+    /*text-transform: capitalize;*/
+    text-align: center;
+}
+.row.p-50.container-row.padding_below p.text-justify.Practitioner_text {
+    padding-bottom: 4%;
+}
+h5.user-name {
+    padding:5px 20px 0 20px;
+    color: #333;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    font-weight: bold;
+	color:#0080c8;
+}
+h5.faculty_designation {
+    padding: 5px 20px;
+    color: #333;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    font-weight: bold;
+}
+.why-us {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.why-us .heading {
+    margin-bottom: 20px !important;
+}
+.why-us p {
+    margin-top: 16px !important;
+    line-height: 27px;
+    padding: 0 10%;
+    font-size: 17px;
+    color: #272525;
+    font-family: 'robotolight';
+}
+
+.marb92 {
+    margin-top:42px;
+}
+
+p.footer_p strong {
+    color: #272525 !important;
+    font-family: 'robotobold';
+}
+
+p.footer_p span {
+    font-family: 'robotoregular';
+}
+.counter-row {
+    margin-top: 60px;
+    padding: 0 108px;
+    margin-bottom:60px;
+}
+
+.abt-content h3 {
+    font-size: 55px;
+    line-height: 36px;
+    font-family: 'robotobold';
+}
+
+.abt-content h3 span {
+    font-size: 24px;
+    font-family: 'robotobold';
+}
+
+.abt-content p {
+    font-size: 18px;
+    font-family: 'robotomedium';
+    padding: 0 0 ;
+}
+
+.abt-content p:first-letter {
+    text-transform: capitalize;
+}
+
+
+/* Video wrapper */
+
+.video-wrapper {
+    margin-top:30px;
+}
+
+/* syllabus css */
+
+
+.content-wrapper {
+    background: #e2e2e1;
+    padding:66px 114px 60px 114px;
+    z-index: 99;
+    position: relative;
+    text-align: center;
+}
+
+.mb92 {
+    margin-bottom: 32px;
+}
+
+x.bg_grey {
+background: #e2e2e1;
+}
+
+.icon-row {
+    text-align: center;
+}
+
+.syllabus {
+    padding: 10px 0 4px 0;
+    text-align: left;
+    margin-bottom: 38px;
+}
+
+.row.icon-row h4 {
+    margin-top: 30px !important;
+    font-family: 'robotomedium';
+    color: #272525;
+    xtext-transform: capitalize;
+    line-height: 25px;
+}
+
+.syllabus ul {
+    padding :0;
+}
+
+.syllabus ul li {
+    padding :0;
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #272525;
+}
+
+span.ul-head {
+    color: #0080c8;
+    font-size: 18px;
+    font-family: 'robotobold';
+}
+
+.box {
+    padding: 0;
+    height: 230px;
+}
+
+/* faculty css */
+
+.row.p-50.container-row {
+    margin-top: 35px;
+    position: relative;
+    z-index: 999;
+}
+
+fieldset {
+    min-height: 300px;
+}
+
+fieldset h5 {
+    font-family: 'robotomedium';
+    color: #000;
+    line-height: 20px;
+}
+
+fieldset h5:nth-child(3) {
+  margin-bottom: 20px !important;
+}
+
+fieldset p {
+    font-family: 'robotolight';
+    line-height: 25px;
+    font-size: 15px;
+    display: inline;
+    color: #272525;
+}
+
+
+
+
+
+/* certificate css */
+
+
+.img-container {
+ position: relative;
+ margin-top: -5%;
+}
+
+.certificate-bg {
+    background: url('../../assets-data/images/certificate-bg_new_dm.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.certificate-bg h1 {
+    text-align: left !important;
+    line-height: 32px;
+}
+
+.certificate-bg p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 32px 0 !important;
+    color: #272525;
+    font-family: 'robotoregular';
+}
+
+
+/* Top footer css */
+
+.top-footer {
+    background: #0080c8;
+    padding:51px 0 52px 0;
+    color: #fff;
+}
+
+.top-footer h3 {
+    margin-top: 32px !important;
+}
+
+.top-footer h5 {
+    margin-top: 5px !important;
+}
+
+button.btn.btn-default.apply-btn  {
+    background: #fff;
+    margin: 15px 0 0 0;
+    padding: 13px 30px;
+    color: #0080c8;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family: 'robotobold';
+}
+}
+
+
+
+/* social icon css */
+
+ul.social-network.social-circle {
+    padding: 0;
+}
+
+ul.social-network.social-circle li {
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul.social-network.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 14px 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+    background: #7f7f7f;
+    color: #fff;
+}
+
+ul.social-network.social-circle li:nth-child(3) a {
+  margin: 0 0px 0 auto !important;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 36px;
+    text-align: center;
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-circle li a:hover i {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+footer p {
+    padding: 26px 50px 50px 50px;
+    line-height: 25px;
+    font-size: 14px;
+	text-align:justify;
+}
+
+
+
+
+
+.faculty-slider .slick-prev:before {
+    content: '';
+    border-top: 3px solid #0080c8;
+    border-left: 3px solid #0080c8;
+    transform: rotate(-46deg) skew(0deg);
+    left: -35px;
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 10px;
+    width: 3em;
+    height: 3em;
+}
+
+.faculty-slider .slick-next:before {
+    content: '';
+    border-top: 3px solid #0080c8;
+    border-left: 3px solid #0080c8;
+    transform: rotate(136deg) skew(0deg);
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 10px;
+    width: 3em;
+    height: 3em;
+}
+
+.slick-prev {
+    left: -10px !important;
+}
+/* New css */
+
+.container.info-row {
+    margin-top: -45px;
+    padding: 0 20px;
+}
+
+.slick-slide {
+	outline: none;
+}
+
+.banner-content h1 {
+    font-family: 'robotobold';
+    font-size: 55px;
+    line-height: 55px;
+    margin-top: 410px !important;
+}
+
+.banner-content p {
+    font-family: 'robotomedium';
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.heading.marb48 {
+    margin-bottom: 58px !important;
+}
+
+.heading.mart50 {
+    margin-top: 45px !important;
+}
+
+.heading.mart50.marb0 {
+    margin-bottom: 0px !important;
+}
+
+.faculty-slider .slider_image_box {
+ margin: 0 auto;
+ text-align: center;
+}
+
+.slick-slide img {
+    margin: 0 auto;
+}
+
+.certificate-bg .padl59 {
+ padding-left: 65px;
+}
+
+.text-center a {
+    text-decoration: underline !important;
+}
+
+/*POP-up css below*/
+
+.modal-header .close {
+ color: #3d8ec0;
+ opacity: 1;
+ margin-top: -3px !important;
+ padding-right: 12px !important;
+}
+
+
+.close {
+    font-size: 49px !important;
+    font-weight: normal !important;
+}
+
+.img-circle {
+    width: 115px !important;
+    height: 115px;
+}
+
+/*.modal-open .modal {
+ top: 25%;
+ }*/
+
+ .modal-dialog.modal-lg {
+     width: 77.3% !important;
+     margin: 119px auto 30px 12% !important;
+ }
+
+ .modal-dialog .modal-content {
+     -webkit-box-shadow: none;
+     box-shadow: none;
+ }
+
+ .modal-body h5 {
+  text-align: center;
+}
+
+.modal-body h5:first-child {
+    margin-top: -8px !important;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'robotomedium';
+}
+
+.modal-body .content_p p {
+  font-size: 14px;
+  font-family: 'robotolight';
+  text-align: center;
+  line-height: 22px;
+  margin-bottom: 15px !important;
+}
+
+.modal-body h5:nth-child(2) {
+    margin-top: 8px !important;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    font-family: 'robotomedium';
+}
+
+.modal-body p.profile {
+ font-size: 14px;
+ color: #b8434f;
+}
+
+.modal-body p span {
+ color: #272525;
+}
+
+.modal-body {
+ padding: 10px 70px 40px 70px !important;
+}
+
+.modal-header {
+ position: relative;
+}
+
+.modal-header img {
+ position: absolute;
+ transform: translate(-34%,-82%) !important;
+}
+
+.modal-content .modal-header {
+ border-bottom: 0px;
+}
+
+.content_p {
+    margin-top: 36px;
+}
+
+.btn.btn-default.apply-btn:hover {
+  background: #0080c8 !important;
+  text-shadow: none;
+  color: #fff !important;
+  border: 1px #fff solid !important;
+  transition: all .1s;
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+  -o-transition: all .1s;
+}
+
+p.thankyou{
+	font-size: 18px;
+    line-height: 19px;
+    color: #333;
+	padding-bottom:5px;
+}
+
+p.getintouch{
+	color:#0080c8;
+	font-size:18px;
+	padding-bottom:5px;
+}
+
+a.download-btn-link, a.download-btn-link:hover, a.download-btn-link:active, a.download-btn-link:focus{
+	 background: #0080c8;
+    margin: 0 auto;
+    padding: 13px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    /*font-family: 'robotobold';*/
+    font-size: 14px;
+	text-decoration:none !important;
+}
+a.btn.download-btn-link {
+    color: #fff !important;
+}
+p a {
+    color: #0080c8 !important;
+}
+.form-horizontal {
+    background: none repeat scroll 0px 0px #e2e2e1;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+   
+}
+.new-apply{
+	color:#000;
+	margin-top: 100px ! important;
+    margin-bottom: 30px ! important;
+	padding: 0 15px;
+}
+.faculty_designation {
+    font-family: 'robotomedium';
+    color: #000;
+    line-height: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+.row.p-50.container-row.padding_below {
+    padding-bottom: 80px;
+}
+
+ iframe#player {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+
+@media only screen and (min-width:769px){
+.col-md-6.col-sm-6.extra_space .syllabus {
+    padding-left: 2%;
+}
+}
